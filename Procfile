@@ -1,1 +1,1 @@
-web: gunicorn boom.wsgi
+web: gunicorn -t 120 boom.wsgi
